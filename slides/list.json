@@ -1,1 +1,18 @@
-["index.md"]
+[
+    "index.html",
+    "or-how-to-nearly-finish-in-the-top-third-of-the-company-bracket.html",
+    "goals.html",
+    "kaggle.html",
+    "the-data.html",
+    [
+        "the-goal.html",
+        {
+            "attr": {
+                "data-background": "../static/bracket.gif"
+            }
+        },
+        "submitting.html",
+        "scoring.html",
+        "scoring-2.html"
+    ]
+]
