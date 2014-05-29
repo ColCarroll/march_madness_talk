@@ -1,0 +1,20 @@
+<h2>Cross Validate</h2>
+
+<pre><code>
+    best_loss = 10
+    best_setup = None
+    for penalty in ['l1', 'l2']:
+      for reg_strength in [10 ** (0.5 * j) for j in range(-4, 4)]:
+        self.__model = LogisticRegression(
+                            penalty=penalty,
+                            C=reg_strength)
+        loss = sum(self.predict(season) for season in self.seasons)
+        avg_loss = loss / len(self.seasons)
+
+        if avg_loss < best_loss:
+          best_setup = {
+              "penalty": penalty,
+              "reg_strength": reg_strength
+          }
+          best_loss = avg_loss
+</code></pre>

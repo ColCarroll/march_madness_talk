@@ -1,0 +1,21 @@
+<h2>Reports</h2>
+        <pre><code>
+def get_season_wins(season):
+    return run_query("""SELECT
+                wteam AS team_id,
+                COUNT(*) AS wins
+            FROM
+                regular_season_results
+            WHERE
+                season = '{:s}'
+            GROUP BY
+                wteam""".format(season))
+        </code></pre>
+        <pre class="fragment"><code>
+[
+    {
+        "wins": 15,
+        "team_id": 502
+    }, ...
+        </code></pre>
+

@@ -1,0 +1,13 @@
+<h2>Features</h2>
+<pre><code>
+def make_extra_features(features):
+    """ Takes a feature vector and returns n(n+1)/2 new features,
+    corresponding to all products of two of the original features
+    """
+    new_features = []
+    for j, feature_one in enumerate(features):
+        new_features.append(feature_one)
+        for feature_two in features[j:]:
+            new_features.append(feature_one * feature_two)
+    return new_features
+</code></pre>

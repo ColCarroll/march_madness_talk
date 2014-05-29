@@ -1,0 +1,31 @@
+<h2>Reports</h2>
+<pre><code>
+def get_season_results(season):
+    return run_query("""
+            SELECT
+                season,
+                daynum,
+                wteam,
+                wscore,
+                lteam,
+                lscore,
+                wloc,
+                numot
+            FROM
+                regular_season_results
+            WHERE
+                season = '{:s}'""".format(season))
+</code></pre>
+<pre class="fragment"><code>
+[
+    {
+        "wscore": 70,
+        "wteam": 504,
+        "season": "R",
+        "lscore": 67,
+        "daynum": 4,
+        "lteam": 748,
+        "numot": "0",
+        "wloc": "H"
+    }, ...
+</code></pre>

@@ -1,0 +1,16 @@
+<h2>Organize Data</h2>
+
+<p>Insert data into relational (SQLite) database</p>
+        <pre><code>
+    def get_data_type(data_str):
+        """Detects if a string is an integer, real,
+        or text for parsing csvs into sqlite database
+        """
+        try:
+            num = float(data_str)
+            if int(num) == float(num):
+                return "integer"
+            return "real"
+        except ValueError:
+            return "text"
+        </code></pre>

@@ -1,0 +1,8 @@
+<h2>Overfitting</h2>
+
+<pre><code>
+    from sklearn.linear_model import LogisticRegression
+
+    model = LogisticRegression(penalty='l1', C = 0.3).fit(features, labels)
+    print(model.weights)
+</code></pre>

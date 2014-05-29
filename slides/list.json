@@ -1,18 +1,70 @@
 [
     "index.html",
-    "or-how-to-nearly-finish-in-the-top-third-of-the-company-bracket.html",
-    "goals.html",
+    [
+        "data-project-overview.html",
+        "data-project-overview2.html"
+    ],
+    "predictions.html",
+    [
+        "decision-tree.html",
+        "random-forest.html",
+        "k-nearest-neighbors.html",
+        "logarithmic-regression.html",
+        "naive-bayes.html"
+    ],
+    [
+        "tuning-model.html",
+        "tuning-model-2.html",
+        "tuning-model-3.html"
+    ],
+    [
+        "overfitting.html",
+        "overfitting-2.html",
+        "overfitting-3.html"
+    ],
+    [
+        "train-cross-validate-test.html",
+        "train-cross-validate-test-2.html"
+    ],
+    [
+        "cross-validate.html",
+        "cross-validate-2.html"
+    ],
     "kaggle.html",
-    "the-data.html",
+    "kaggle-results.html",
+    "or-how-to-nearly-finish-in-the-top-third-of-the-company-bracket.html",
+    "level-of-complexity.html",
     [
         "the-goal.html",
-        {
-            "attr": {
-                "data-background": "../static/bracket.gif"
-            }
-        },
+        "ncaa-tournament.html",
         "submitting.html",
+        "submitting-3.html",
+        "submitting-2.html",
         "scoring.html",
-        "scoring-2.html"
+        "scoring-4.html",
+        "scoring-2.html",
+        "scoring-3.html"
+    ],
+    "records.html",
+    [
+        "regular-season-results.html",
+        "tourney-results.html",
+        "seasons.html",
+        "teams.html",
+        "tourney-seeds.html",
+        "sagarin-weekly-rankings.html"
+    ],
+    [
+        "organize-data.html",
+        "reports.html",
+        "reports5.html",
+        "reports4.html",
+        "reports2.html",
+        "reports3.html"
+    ],
+    [
+        "features-2.html",
+        "features.html",
+        "features-3.html"
     ]
 ]

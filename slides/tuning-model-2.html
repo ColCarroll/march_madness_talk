@@ -1,0 +1,8 @@
+<h2>Tuning Model</h2>
+
+<p>
+    Given data $~x^j = (x^j_1, \ldots , x^j_N)$, weights $~w= (w_1, \ldots, w_N)$, and labels $~y_j$,
+    let $$\sigma_{w}(x^j) = \frac{1}{1 + e^{-w \cdot x^j}}.$$
+    Find a $w$ that minimizes
+    $$- \frac{1}{n} \sum_{j = 1}^n \left( y_j \log{\sigma_w(x^j)} + (1 - y_j) \log{(1 - \sigma_w(x^j)} \right)$$
+</p>
