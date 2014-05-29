@@ -10,7 +10,8 @@
         "random-forest.html",
         "k-nearest-neighbors.html",
         "logarithmic-regression.html",
-        "naive-bayes.html"
+        "naive-bayes.html",
+        "decision-boundaries.html"
     ],
     [
         "tuning-model.html",
